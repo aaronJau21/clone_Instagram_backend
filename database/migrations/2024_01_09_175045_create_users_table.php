@@ -18,7 +18,7 @@ return new class extends Migration
             $table->string('email', 35);
             $table->string('password');
             $table->integer('age');
-            $table->date('birthday');
+            $table->string('birthday');
             $table->string('job', 20)->nullable();
             $table->string('position')->nullable();
             $table->text('hobbies')->nullable();
